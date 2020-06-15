@@ -59,7 +59,7 @@ $(document).ready(function() {
         }
 
         $.ajax({
-            url: '',
+            url: 'https://lov8z1jw93.execute-api.us-east-1.amazonaws.com/test/lead',
             type: 'POST',
             dataType: 'json',
             contentType: 'application/json; charset=utm-8',
@@ -73,7 +73,7 @@ $(document).ready(function() {
                 })
             },
             error: function() {
-                
+
             }
         })
 
